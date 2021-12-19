@@ -1,0 +1,145 @@
+body {
+    background-color: #FFFADE;
+}
+/* HEADER */
+.header{
+    background-color: #FED880;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+/* TITULOS DEL HEADER*/
+.titulo{
+    color:burlywood;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 55px;
+    
+}
+.titulo3{
+    color:burlywood;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    
+    
+}
+.titulo2{
+    color:burlywood;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+/*SECTION PEDIDO*/
+.pedido{              /*section*/
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+#descripcion{
+    margin-top: 20px;
+}
+.inputPedido{             /*input*/
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 20px;
+}
+.cardUsuario{                /*card para completar*/
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.btn{                        /*botones*/
+    margin-top: 40px;
+    background-color: #515522;
+   
+}
+.card{                 /*card menu*/
+    background-color: #C8C9B1;
+    color: #27270C ;
+    
+}
+#btnMenu{                  /*boton ver menu*/
+    margin-left: 50px;
+    margin-top: 100px;
+    
+    
+}
+.sectionMenu{                
+    margin-top: 60px;
+   
+
+}
+.alert{
+    margin-top: 20px;
+}
+.form-select{
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+}
+
+/* SECTION CAROUSEL*/
+#container{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.carousel-inner{
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.whatsapp{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.link-warning{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+/* SECTION SUSCRIPCION*/
+.suscripcion{             /*form*/
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.mb-3{
+    width: 50%;
+}
+#btnSuscribirse{           /*boton*/
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
+#gracias{                   /*div mensaje respuesta*/
+    display: flex;
+    justify-content: center;
+}
+#respPost{                   /*mensaje respuesta*/
+ color:whitesmoke;
+ border: 2px;
+ border-radius: 3px; 
+ background-color: darkolivegreen;
+}
+/* FOOTER */
+.footer{
+    background-color: #C8C9B1;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.footerText{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 35px;
+    font-size: 40px;
+}
