@@ -172,7 +172,15 @@ $("#btnMenu").click(() => {
 });
 // modificacion de las cards
 $("#cardBody").css({
-    "margin-left":"150px",
+   
+    "width": "100%",
+    "height" : "300px",
+   
+})
+$("#container-fluid").css({
+    "max-width": "300px",
+    
+   
 })
 
 
@@ -192,11 +200,11 @@ $("#suscripcion").append('<button type="button" class="btn btn-secondary" id="bt
 $("#btnSuscribirse").click(() => { 
     $.post(URLPOST, infoPost ,(respuesta, estado) => {
         if(estado === "success"){
-            $("#gracias").prepend(`<h2 id=respPost>
-Gracias!
-</h2>`);
+            $("#gracias").prepend(`<div class="alert alert-success" role="alert">
+            Gracias por suscribirse! 
+          </div>`);
         }  
     });
 });
 
- 
+

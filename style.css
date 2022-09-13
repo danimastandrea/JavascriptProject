@@ -1,26 +1,28 @@
 body {
-    background-color: #FFFADE;
+    background-color: #000;
 }
 /* HEADER */
 .header{
-    background-color: #FED880;
+    background-image: url(./assets/menu.jpg);
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 200px;
+
 
 }
 /* TITULOS DEL HEADER*/
-.titulo{
-    color:burlywood;
+.title{
+ /*   color:burlywood;
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 55px;
+    font-family: 'Bebas Neue', cursive;*/
+    font-size: 0px;
     
 }
 .titulo3{
-    color:burlywood;
+    color:#fff;
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -42,7 +44,16 @@ body {
 .pedido{              /*section*/
     display: flex;
     flex-direction: row;
-    margin-top: 60px;
+    padding-top: 60px;
+    
+        background-position-x: right!important;
+        background-repeat: no-repeat;
+        background-size: contain!important;
+        background-image:url(./assets/logo.png);
+        background-position-y: bottom!important;
+        background-attachment: fixed;
+       
+   
 }
 #descripcion{
     margin-top: 20px;
@@ -52,6 +63,15 @@ body {
     flex-direction: column;
     width: 30%;
     margin-left: 20px;
+    
+}
+.tituloPedido{
+   color: #fff;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-transform: uppercase;
+}
+.form-select{
+    background-color:#C8C9B1!important;
 }
 .cardUsuario{                /*card para completar*/
     margin-top: 60px;
@@ -73,11 +93,7 @@ body {
     
     
 }
-.sectionMenu{                
-    margin-top: 60px;
-   
 
-}
 .alert{
     margin-top: 20px;
 }
@@ -96,17 +112,16 @@ body {
 
 .carousel-inner{
     margin-top: 70px;
-    margin-bottom: 100px;
+    
 }
-.whatsapp{
+.cards__burger{
     display: flex;
-    justify-content: center;
-    background-color: whitesmoke;
+    justify-content: space-around;
+    background-color: #000;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
-.link-warning{
-    margin-bottom: 50px;
-    margin-top: 30px;
-}
+
 /* SECTION SUSCRIPCION*/
 .suscripcion{             /*form*/
     display: flex;
@@ -134,9 +149,11 @@ body {
 /* FOOTER */
 .footer{
     background-color: #C8C9B1;
-    height: 150px;
+    height: 400px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 .footerText{
     font-family: 'Dancing Script', cursive;
